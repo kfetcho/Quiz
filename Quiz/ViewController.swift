@@ -12,16 +12,16 @@ class ViewController: UIViewController {
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
     
-    let questions: [String] = {
+    let questions: [String] = [
         "What is 7+7?",
         "What is the capital of Vermont?",
         "What is cognac made from?"
-    }
-    let answers: [String] = {
+    ]
+    let answers: [String] = [
         "14",
         "Montpelier",
         "Grapes"
-    }
+    ]
 
     var currentQuestionIndex: Int = 0
     
