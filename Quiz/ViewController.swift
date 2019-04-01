@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         "Who is the current president of HPU?",
         "What are High Points school colors?",
         "What NFL team does Robert Kraft own?",
-        "Where is Super Bowl LIII going to be held?"
+        "Where is Super Bowl LIII going to be held?"  
     ]
     let answers: [String] = [
         "14",
